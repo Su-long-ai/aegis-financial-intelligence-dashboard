@@ -1,0 +1,95 @@
+{
+  "feeds": [
+    {
+      "name": "GDELT Global Conflict",
+      "type": "gdelt",
+      "query": "(war OR conflict OR attack OR missile OR bombing OR sanctions)",
+      "source": "GDELT",
+      "topic_hint": "GEO_CONFLICT"
+    },
+    {
+      "name": "GDELT Macro Policy",
+      "type": "gdelt",
+      "query": "(Federal Reserve OR FOMC OR Powell OR ECB OR CPI OR inflation OR PCE OR jobs OR nonfarm)",
+      "source": "GDELT",
+      "topic_hint": "MACRO_DATA"
+    },
+    {
+      "name": "GDELT Trade Tariff",
+      "type": "gdelt",
+      "query": "(tariff OR export control OR trade war OR sanctions OR customs)",
+      "source": "GDELT",
+      "topic_hint": "TRADE_TARIFF"
+    },
+    {
+      "name": "GDELT Energy Shock",
+      "type": "gdelt",
+      "query": "(oil OR gas OR OPEC OR pipeline OR refinery OR energy supply)",
+      "source": "GDELT",
+      "topic_hint": "ENERGY_SHOCK"
+    },
+    {
+      "name": "GDELT Tech Breakthrough",
+      "type": "gdelt",
+      "query": "(AI OR semiconductor OR chip OR breakthrough OR quantum OR drug approval)",
+      "source": "GDELT",
+      "topic_hint": "TECH_BREAKTHROUGH"
+    },
+    {
+      "name": "GDELT Election Risk",
+      "type": "gdelt",
+      "query": "(election OR poll OR vote OR referendum OR parliament)",
+      "source": "GDELT",
+      "topic_hint": "ELECTION_RISK"
+    },
+    {
+      "name": "GDELT Natural Disaster",
+      "type": "gdelt",
+      "query": "(earthquake OR flood OR hurricane OR typhoon OR disaster)",
+      "source": "GDELT",
+      "topic_hint": "NATURAL_DISASTER"
+    },
+    {
+      "name": "Reuters World",
+      "type": "rss",
+      "url": "https://www.reutersagency.com/feed/?best-topics=world-news&post_type=best",
+      "source": "Reuters",
+      "topic_hint": "GEO_CONFLICT"
+    },
+    {
+      "name": "Reuters Markets",
+      "type": "rss",
+      "url": "https://www.reutersagency.com/feed/?best-topics=business-finance&post_type=best",
+      "source": "Reuters",
+      "topic_hint": "MACRO_DATA"
+    },
+    {
+      "name": "Federal Reserve",
+      "type": "rss",
+      "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+      "source": "Fed",
+      "topic_hint": "FED_POLICY"
+    },
+    {
+      "name": "ECB",
+      "type": "rss",
+      "url": "https://www.ecb.europa.eu/rss/press.html",
+      "source": "ECB",
+      "topic_hint": "FED_POLICY"
+    },
+    {
+      "name": "OPEC",
+      "type": "rss",
+      "url": "https://www.opec.org/opec_web/en/press_room/28.htm?rss=1",
+      "source": "OPEC",
+      "topic_hint": "ENERGY_SHOCK"
+    },
+    {
+      "name": "World Bank",
+      "type": "rss",
+      "url": "https://www.worldbank.org/en/news/all?format=rss",
+      "source": "World Bank",
+      "topic_hint": "MACRO_DATA"
+    }
+  ]
+}

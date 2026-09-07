@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+aegis_wecom.json
+
+# Runtime data
+aegis_alpha_mvp.db
+aegis_alpha_mvp.db-*
+outbox/
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

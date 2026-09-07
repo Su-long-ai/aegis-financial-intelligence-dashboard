@@ -20,6 +20,12 @@ from urllib.request import Request, urlopen
 from xml.etree import ElementTree as ET
 
 try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except Exception:  # optional when environment variables are set externally
+    pass
+
+try:
     from openai import OpenAI  # type: ignore
 except Exception:  # pragma: no cover - optional dependency
     OpenAI = None

@@ -1,8 +1,14 @@
 # Aegis Financial Intelligence Dashboard
 
-A local-first financial intelligence research prototype that turns public news feeds into structured market events, stores an auditable reasoning trail in SQLite, and exposes the results through a lightweight dashboard and CLI.
+**Applied AI systems portfolio project:** a local-first pipeline that converts public news into structured market events, stores an auditable reasoning trail in SQLite, and exposes results through a lightweight dashboard and CLI.
 
-Aegis can run entirely without an LLM using deterministic rules. A DeepSeek/OpenAI-compatible endpoint is optional and is treated as an enrichment layer rather than a hard dependency.
+**Recruiter quick scan**
+- deterministic event classification with optional LLM enrichment
+- source credibility and event-importance heuristics
+- structured event-to-asset impact hypotheses
+- SQLite audit trail for raw inputs, events, reasoning and reviews
+- CLI + local dashboard + optional notification adapter
+- useful offline without an LLM, with the model treated as an enrichment layer
 
 ## Why this project exists
 
